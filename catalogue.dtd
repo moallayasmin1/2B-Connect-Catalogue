@@ -1,0 +1,12 @@
+<!ELEMENT catalogue (produit+)>
+<!ELEMENT produit (nom, description?, prix, quantite, categorie+)>
+
+<!ATTLIST produit
+    id ID #REQUIRED
+    disponible (oui | non) #REQUIRED
+>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+<!ELEMENT quantite (#PCDATA)>
+<!ELEMENT categorie (#PCDATA)>
