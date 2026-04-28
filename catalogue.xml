@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalogue SYSTEM "catalogue.dtd">
+
+-<catalogue>
+
+
+-<produit disponible="oui" id="p1">
+
+<nom>Bracelet artisanal</nom>
+
+<description>Bracelet fait à la main</description>
+
+<prix>25.5</prix>
+
+<quantite>10</quantite>
+
+<categorie>Artisanat</categorie>
+
+</produit>
+
+
+-<produit disponible="non" id="p2">
+
+<nom>Pain maison</nom>
+
+<prix>3.2</prix>
+
+<quantite>50</quantite>
+
+<categorie>Alimentaire</categorie>
+
+</produit>
+
+</catalogue>
